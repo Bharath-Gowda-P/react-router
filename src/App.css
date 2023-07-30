@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.loginBoxShadow{
+    box-shadow: rgba(255, 255, 255, 0.18) 0px -1px 0px inset;
+}
+
+.imageAbs{
+    position: relative;
+    max-width: 450px;
+    margin: 0 auto;
+}
